@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  min-width: 1440px;
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+  font-family: /* your font here */ sans-serif;
+  color: /* your text color here */ #ffffff;
+   background-image: url('images/phytomorphology.png');
+  background-size: cover;        /* stretches to fill the whole page */
+  background-position: center;   /* centers the image */
+  background-repeat: no-repeat;  /* stops it from tiling */
+}
+ 
+
+ 
+/* =====================
+   TOP RIGHT TITLE
+   ===================== */
+.page-title {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 48px;
+  font-family: /* your font */ sans-serif;
+  font-weight: 
+  z-index: -1;
+  text-align: right;
+}
+ 
+/* =====================
+   TOP RIGHT DESCRIPTION
+   ===================== */
+.page-description {
+color: #FEFFEC;
+font-family: "loos-normal-medium", sans-serif;
+font-weight: 400;
+font-style: normal;
+z-index: -1;
+}
+ 
+
+ 
+/* =====================
+   INFO BOXES (shared)
+   ===================== */
+.info-box {
+  position: absolute;
+  width: 380px;          /* adjust width */
+  background-color: /* your color */ rgba(255, 255, 200, 0.5);
+  padding: 20px 25px;
+  z-index: -1;
+}
+ 
+.info-box h2 {
+  font-size: /* your size */ 16px;
+  font-family: /* your font */ sans-serif;
+  font-weight: /* your weight */ 600;
+  color: /* your color */ #ffffff;
+  margin-bottom: 15px;
+}
+ 
+.info-box ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+.info-box ul li {
+  font-size: /* your size */ 12px;
+  font-family: /* your font */ sans-serif;
+  color: /* your color */ #ffffff;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+ 
+.info-box ul li strong {
+  font-weight: 700;
+}
+ 
+/* =====================
+   BOX 1 — TOP LEFT
+   ===================== */
+.box-top-left {
+  top: 100px;            /* adjust position */
+  left: 40px; 
+  z-index: -1;           /* adjust position */
+}
+ 
+/* =====================
+   BOX 2 — BOTTOM LEFT
+   ===================== */
+.box-bottom-left {
+  bottom: 80px;          /* adjust position */
+  left: 40px;            /* adjust position */
+  z-index: -1;           /* adjust position */
+}
+ 
